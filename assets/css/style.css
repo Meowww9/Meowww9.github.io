@@ -841,6 +841,12 @@ main {
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
+.skills-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+}
+
 .skill .title-wrapper {
   display: flex;
   align-items: center;
@@ -865,6 +871,19 @@ main {
   background: var(--text-gradient-yellow);
   height: 100%;
   border-radius: inherit;
+}
+
+.skills-separator {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.skills-separator .dot {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: var(--white-1);
+  font-size: 1.5rem;
+  line-height: 1;
 }
 
 
